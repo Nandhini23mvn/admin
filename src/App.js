@@ -22,7 +22,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/login" element={<AdminLogin/>} />
-        <Route path="/admin" element={<AdminPanel />} /> Admin route
+        <Route path="/admin" element={<AdminPanel />} /> 
       </Routes>
     </Router>
   );
